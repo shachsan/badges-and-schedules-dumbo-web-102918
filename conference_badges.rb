@@ -19,4 +19,4 @@ def printer(attendees)
   # attendees.each {|attendee|puts "Hello, my name is #{attendee}." }
   # attendees.each_with_index {|attendee, i|puts "Hello, #{attendee}! You'll be assigned to room #{i+1}!"}
 end
-printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
+# printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
