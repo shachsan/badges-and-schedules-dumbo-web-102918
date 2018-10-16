@@ -14,10 +14,8 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  new_line = batch_badge_creator(attendees)#.join("\n")
-  puts new_line.join("\n")
-  puts assign_rooms(attendees)
-  # attendees.each {|attendee|puts "Hello, my name is #{attendee}." }
-  # attendees.each_with_index {|attendee, i|puts "Hello, #{attendee}! You'll be assigned to room #{i+1}!"}
+  # puts batch_badge_creator(attendees).join("\n") #This works fine when run at atom ide and gives the results as desired but fails duing the test
+  # puts assign_rooms(attendees).join("\n") #Need to fine out - #This works fine when run at atom ide and gives the results as desired but fails duing the test
+  attendees.each {|attendee|puts "Hello, my name is #{attendee}." }
+  attendees.each_with_index {|attendee, i|puts "Hello, #{attendee}! You'll be assigned to room #{i+1}!"}
 end
-# printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
