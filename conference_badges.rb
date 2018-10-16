@@ -10,3 +10,8 @@ end
 def assign_rooms(attendees)
   attendees.map.with_index {|attendee, i|"Hello, #{attendee}! You'll be assigned to room #{i+1}!"
 end
+
+def printer(attendees)
+  badge_maker(attendees)
+  assign_rooms(attendees)
+end 
